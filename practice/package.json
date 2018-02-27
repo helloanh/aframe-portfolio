@@ -9,6 +9,7 @@
     "ghpages": "ghpages"
   },
   "devDependencies": {
+    "aframe": "^0.7.1",
     "budo": "^7.0.0",
     "ghpages": "0.0.3"
   },

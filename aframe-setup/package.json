@@ -1,0 +1,22 @@
+{
+  "name": "myboilerplate",
+  "version": "1.0.0",
+  "description": "```js mkdir project  && cd project   npm init -y   npm i webpack --save-dev   npm i webpack-cli --save-dev   touch index.js index.html bundle.js   ```",
+  "main": "index.js",
+  "dependencies": {
+    "aframe": "^0.7.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9"
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "anh k. hoang",
+  "license": "ISC"
+}
